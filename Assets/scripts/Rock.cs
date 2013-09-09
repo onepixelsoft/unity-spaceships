@@ -38,13 +38,15 @@ public class Rock : MonoBehaviour {
 		if (other.gameObject.tag == "Player") {
 			
 			
-			Instantiate(explosion,gameObject.transform.position,Quaternion.identity);
+			this.hitplayer(gameObject.transform.position);
 			respawn();
 			gamestate.colrock();
 		}
 	}
 	
-	
+	public void hitplayer(Vector3 position) {
+		Instantiate(explosion,position,Quaternion.identity);
+	}
  
  
 	void rotateAroundToValue()

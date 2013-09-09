@@ -46,6 +46,7 @@ public class Shot : MonoBehaviour {
 			*/
 			if (!findexp) {
 				Instantiate(explosion,gameObject.transform.position,Quaternion.identity);
+				Destroy(gameObject);
 				
 			}
 			

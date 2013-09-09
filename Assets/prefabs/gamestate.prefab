@@ -39,7 +39,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  timer: 60
+  timer: 20
+  lpoints: {x: 0, y: 0}
+  lhealth: {x: 0, y: 20}
+  ltimer: {x: 0, y: 40}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

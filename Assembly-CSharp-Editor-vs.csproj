@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{3D4055C4-3CE3-F573-F338-26618B8DF24C}</ProjectGuid>
+	<ProjectGuid>{4C3412F1-BA6F-E734-CC11-C9A6A35BE914}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -45,10 +45,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
+     <None Include="Assets\Resources\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Resources\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\instrucciones.txt" />
+     <None Include="Assets\Resources\Necromancer GUI\Readme.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
@@ -70,10 +73,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{5E159C82-A927-27BA-D594-A6E82C8BFB9E}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{C7381FC0-C803-26EB-767E-4D0044CB8854}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{4853821E-FB51-F82B-EF0C-0441E88DDCAC}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
